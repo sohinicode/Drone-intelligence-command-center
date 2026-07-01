@@ -8,7 +8,8 @@ import {
   Navigation,
   CheckCircle,
   Play,
-  RotateCcw
+  RotateCcw,
+  Gamepad2
 } from 'lucide-react';
 import confetti from 'canvas-confetti';
 

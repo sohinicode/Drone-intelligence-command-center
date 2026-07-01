@@ -9,7 +9,8 @@ import {
   Database,
   ArrowRight,
   User,
-  Bot
+  Bot,
+  Loader2
 } from 'lucide-react';
 
 export const AIChat: React.FC = () => {

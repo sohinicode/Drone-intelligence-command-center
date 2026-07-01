@@ -107,10 +107,10 @@ export const Geospatial: React.FC = () => {
 
   const handleMapClick = (lat: number, lon: number) => {
     if (drawMode === 'polygon') {
-      setDrawnPoints([...drawnPoints, [lat, lon]]);
+      setDrawnPoints([...drawnPoints, [lat, lon]] as [number, number][]);
     } 
     else if (drawMode === 'measure') {
-      const newPoints = [...drawnPoints, [lat, lon]];
+      const newPoints = [...drawnPoints, [lat, lon]] as [number, number][];
       setDrawnPoints(newPoints);
       
       if (newPoints.length >= 2) {
