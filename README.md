@@ -8,7 +8,7 @@ Built with a high-fidelity **glassmorphism dark interface**, the application run
 
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 | Layer | Technologies |
 | :--- | :--- |
@@ -21,7 +21,7 @@ Built with a high-fidelity **glassmorphism dark interface**, the application run
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 
 ```mermaid
 flowchart TD
@@ -75,7 +75,7 @@ flowchart TD
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
 1. **Operations Dashboard**: Statistics cards and Chart.js widgets tracking project statuses, defect categories, severity distributions, and monthly trends.
 2. **Geospatial Leaflet Map**: Pulsing defect heatmaps, satellite/dark theme layers, polygon zone selectors (PostGIS boundary containment), and geodesic distance rulers.
@@ -87,7 +87,7 @@ flowchart TD
 
 ---
 
-## 👥 Role-Based Access Control (RBAC)
+## Role-Based Access Control (RBAC)
 
 The app interface adjusts dynamically depending on the active user role:
 
@@ -103,7 +103,7 @@ The app interface adjusts dynamically depending on the active user role:
 
 ---
 
-## ⚙️ Local Installation & Setup
+## Local Installation & Setup
 
 ### Prerequisites
 * [Node.js](https://nodejs.org) (v18 or higher)
@@ -134,7 +134,7 @@ docker-compose up --build
 
 ---
 
-## 🧪 Testing Suites
+## Testing Suites
 
 Run unit and integration test suites:
 ```bash
